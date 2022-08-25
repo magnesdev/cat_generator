@@ -1,0 +1,18 @@
+.radio-inputs-container {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border: none;
+
+  &__box {
+    height: inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  &__input {
+    cursor: pointer;
+    margin-right: 5px;
+  }
+}

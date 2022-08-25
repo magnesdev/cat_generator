@@ -1,0 +1,24 @@
+@import '../../styles/variables.scss';
+
+.search-container {
+  width: 100%;
+  max-width: 600px;
+  max-height: 800px;
+  min-height: 400px;
+  border: $main-border;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  &__inputs-box {
+    margin-bottom: 5px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: $main-border;
+  }
+  &__result-box {
+    margin: auto;
+    max-width: 400px;
+  }
+}
